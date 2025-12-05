@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward();
 
     // ⏳ Auto navigate after 2 seconds
-    Future.delayed(const Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 5), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const QuoteGeneratorApp()),
